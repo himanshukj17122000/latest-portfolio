@@ -15,7 +15,19 @@ const App = () => (
       <Route
         exact
         path='/'
-        render={() => (isMobile ? <Redirect to='/mobile' /> : <HomePage />)}
+        render={() =>
+          isMobile ? (
+            <Route
+              path='/privacy-policy'
+              component={() => {
+                window.location.href = "https://hkj.netlify.app";
+                return null;
+              }}
+            />
+          ) : (
+            <HomePage />
+          )
+        }
       />{" "}
       <Route path='/projects' component={Projects} />{" "}
       <Route path='/about' component={AboutPage} />{" "}
