@@ -1,18 +1,13 @@
 .menu-item {
-  min-width: 10vh;
-  height: 10%;
+  min-width: 30%;
+  height: 240px;
+  flex: 1 1 auto;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 1px solid black;
   margin: 0 7.5px 15px;
-  overflow-y: auto;
-
-
-  /* Hide scrollbar for Chrome, Safari and Opera */
-  .menu-item::-webkit-scrollbar {
-    display: none;
-  }
+  overflow: hidden;
 
   &:hover {
     cursor: pointer;
@@ -30,7 +25,7 @@
   }
 
   &.large {
-    height: 20%;
+    height: 380px;
   }
 
   &.port {
@@ -39,16 +34,18 @@
     background-color: white;
     opacity: 0.8;
     position: relative;
-
+    font-size: 50px;
 
     .title {
       font-weight: bold;
       margin: 0 6px 0;
+      font-size: 22px;
       color: #4a4a4a;
     }
 
     .subtitle {
       font-weight: lighter;
+      font-size: 16px;
       color: black;
       width: 100%;
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -57,8 +54,8 @@
   }
 
   &.name {
-    width: 40vh;
-    height: 40vh;
+    width: 40%;
+    height: 40%;
     background-position: relative;
   }
 
@@ -73,16 +70,19 @@
     background-color: white;
     opacity: 0.5;
     position: absolute;
+    font-size: 50px;
     width: 40%;
 
     .title {
       font-weight: bold;
       margin: 0 6px 0;
+      font-size: 22px;
       color: #4a4a4a;
     }
 
     .subtitle {
       font-weight: lighter;
+      font-size: 16px;
       color: black;
       height: 50%;
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -95,6 +95,7 @@
 
   &:last-child {
     margin-left: 7.5px;
+    font-size: 50px;
   }
 
   .background-image {
@@ -117,16 +118,19 @@
     background-color: white;
     opacity: 0.7;
     position: absolute;
+    font-size: 50px;
     width: auto;
 
     .title {
       font-weight: bold;
       margin: 0 6px 0;
+      font-size: 22px;
       color: #4a4a4a;
     }
 
     .subtitle {
       font-weight: lighter;
+      font-size: 20px;
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     }
   }
