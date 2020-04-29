@@ -6,6 +6,7 @@ import HomePage from "./pages/homepage/homepage.component";
 import Projects from "./pages/projects/projects.component";
 import AboutPage from "./pages/about/about.component";
 import Header from "./components/header/header.component";
+import { isMobile } from "react-device-detect";
 
 const App = () => (
   <div>
@@ -14,9 +15,7 @@ const App = () => (
       <Route
         exact
         path='/'
-        render={() =>
-          window.orientation > 1 ? <Redirect to='/about' /> : <HomePage />
-        }
+        render={() => (isMobile ? <Redirect to='/about' /> : <HomePage />)}
       />{" "}
       <Route path='/projects' component={Projects} />{" "}
       <Route path='/about' component={AboutPage} />{" "}
