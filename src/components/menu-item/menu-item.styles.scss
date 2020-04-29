@@ -1,13 +1,19 @@
 .menu-item {
   min-width: 30%;
-  height: 240px;
+  height: 10%;
   flex: 1 1 auto;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 1px solid black;
   margin: 0 7.5px 15px;
-  overflow: hidden;
+  overflow-y: auto;
+
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .menu-item::-webkit-scrollbar {
+    display: none;
+  }
 
   &:hover {
     cursor: pointer;
@@ -25,7 +31,7 @@
   }
 
   &.large {
-    height: 380px;
+    height: 20%;
   }
 
   &.port {
