@@ -19,7 +19,6 @@ const App = () => (
       />{" "}
       <Route path='/projects' component={Projects} />{" "}
       <Route path='/about' component={AboutPage} />{" "}
-      <Route path='/mobile' component={AboutPage} />{" "}
     </Switch>{" "}
     <footer>
       <div className='icons'>
