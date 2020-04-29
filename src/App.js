@@ -14,6 +14,7 @@ const App = () => (
       <Route exact path='/' component={HomePage} />{" "}
       <Route path='/projects' component={Projects} />{" "}
       <Route path='/about' component={AboutPage} />{" "}
+      <Route path='/mobile' component={AboutPage} />{" "}
     </Switch>{" "}
     <footer>
       <div className='icons'>
