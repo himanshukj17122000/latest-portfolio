@@ -29,8 +29,38 @@ const App = () => (
           )
         }
       />{" "}
-      <Route path='/projects' component={Projects} />{" "}
-      <Route path='/about' component={AboutPage} />{" "}
+      <Route
+        path='/projects'
+        render={() =>
+          isMobile ? (
+            <Route
+              path='/projects'
+              component={() => {
+                window.location.href = "https://hkj.netlify.app/portfolio.html";
+                return null;
+              }}
+            />
+          ) : (
+            <Projects />
+          )
+        }
+      />{" "}
+      <Route
+        path='/about'
+        render={() =>
+          isMobile ? (
+            <Route
+              path='/about'
+              component={() => {
+                window.location.href = "https://hkj.netlify.app";
+                return null;
+              }}
+            />
+          ) : (
+            <AboutPage />
+          )
+        }
+      />{" "}
     </Switch>{" "}
     <footer>
       <div className='icons'>
