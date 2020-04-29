@@ -11,6 +11,9 @@ const App = () => (
   <div>
     <Header />
     <Switch>
+      {window.orientation > 1 ? (
+        <Route exact path='/mobile' component={AboutPage} />
+      ) : null}
       <Route exact path='/' component={HomePage} />{" "}
       <Route path='/projects' component={Projects} />{" "}
       <Route path='/about' component={AboutPage} />{" "}
