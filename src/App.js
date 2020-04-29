@@ -15,7 +15,7 @@ const App = () => (
       <Route
         exact
         path='/'
-        render={() => (isMobile ? <Redirect to='/about' /> : <HomePage />)}
+        render={() => (isMobile ? <Redirect to='/mobile' /> : <HomePage />)}
       />{" "}
       <Route path='/projects' component={Projects} />{" "}
       <Route path='/about' component={AboutPage} />{" "}
