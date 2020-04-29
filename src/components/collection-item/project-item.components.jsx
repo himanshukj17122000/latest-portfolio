@@ -11,8 +11,9 @@ const ProjectItem = ({ title, linkUrl, info, imageUrl }) => (
       src={imageUrl}
       alt='Avatar'
       class='image'
-      width='300vh'
-      height='300vh'
+      width='10%'
+      height='10%'
+      position='absolute'
     />
     <div className='overlay'>
       <p className='text'>

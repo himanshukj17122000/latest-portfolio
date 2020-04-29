@@ -1,7 +1,6 @@
 .menu-item {
-  min-width: 30%;
+  min-width: 10vh;
   height: 10%;
-  flex: 1 1 auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -58,8 +57,8 @@
   }
 
   &.name {
-    width: 40%;
-    height: 40%;
+    width: 40vh;
+    height: 40vh;
     background-position: relative;
   }
 
