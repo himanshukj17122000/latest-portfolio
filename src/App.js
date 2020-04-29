@@ -18,7 +18,7 @@ const App = () => (
         render={() =>
           isMobile ? (
             <Route
-              path='/privacy-policy'
+              path='/'
               component={() => {
                 window.location.href = "https://hkj.netlify.app";
                 return null;
