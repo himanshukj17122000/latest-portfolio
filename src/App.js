@@ -1,5 +1,5 @@
 import React from "react";
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, Redirect } from "react-router-dom";
 import { SocialIcon } from "react-social-icons";
 import "./App.css";
 import HomePage from "./pages/homepage/homepage.component";
@@ -11,10 +11,13 @@ const App = () => (
   <div>
     <Header />
     <Switch>
-      {window.orientation > 1 ? (
-        <Route exact path='/mobile' component={AboutPage} />
-      ) : null}
-      <Route exact path='/' component={HomePage} />{" "}
+      <Route
+        exact
+        path='/'
+        render={() =>
+          window.orientation > 1 ? <Redirect to='/about' /> : <HomePage />
+        }
+      />{" "}
       <Route path='/projects' component={Projects} />{" "}
       <Route path='/about' component={AboutPage} />{" "}
       <Route path='/mobile' component={AboutPage} />{" "}
