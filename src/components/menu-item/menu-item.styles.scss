@@ -28,31 +28,6 @@
     height: 380px;
   }
 
-  &.port {
-    height: auto;
-    border: 1px solid black;
-    background-color: white;
-    opacity: 0.8;
-    position: relative;
-    font-size: 50px;
-
-    .title {
-      font-weight: bold;
-      margin: 0 6px 0;
-      font-size: 22px;
-      color: #4a4a4a;
-    }
-
-    .subtitle {
-      font-weight: lighter;
-      font-size: 16px;
-      color: black;
-      width: 100%;
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    }
-
-  }
-
   &.name {
     width: 40%;
     height: 40%;
@@ -67,26 +42,48 @@
     align-items: center;
     justify-content: center;
     border: 1px solid black;
-    background-color: white;
-    opacity: 0.5;
     position: absolute;
     font-size: 50px;
     width: 40%;
+    min-width: 0%;
 
-    .title {
-      font-weight: bold;
-      margin: 0 6px 0;
-      font-size: 22px;
-      color: #4a4a4a;
+    &.info {
+      background-color: white;
+      opacity: 0.8;
+
+      .title {
+        font-weight: bold;
+        margin: 0 6px 0;
+        font-size: 22px;
+        color: #4a4a4a;
+      }
+
+      .subtitle {
+        font-weight: lighter;
+        font-size: 16px;
+        color: black;
+        height: 50%;
+      }
     }
 
-    .subtitle {
-      font-weight: lighter;
-      font-size: 16px;
-      color: black;
-      height: 50%;
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    &.profile {
+      .title {
+        font-weight: bold;
+        margin: 0 6px 0;
+        font-size: 22px;
+        color: #4a4a4a;
+      }
+
+      .subtitle {
+        font-weight: lighter;
+        font-size: 16px;
+        color: black;
+        height: 50%;
+        opacity: 0;
+      }
     }
+
+
   }
 
   &:first-child {
@@ -116,7 +113,7 @@
     justify-content: center;
     border: 1px solid black;
     background-color: white;
-    opacity: 0.7;
+    opacity: 0.9;
     position: absolute;
     font-size: 50px;
     width: auto;
@@ -130,8 +127,7 @@
 
     .subtitle {
       font-weight: lighter;
-      font-size: 20px;
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 16px;
     }
   }
 }
