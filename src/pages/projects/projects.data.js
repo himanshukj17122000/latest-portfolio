@@ -143,8 +143,8 @@ const PROJECT_DATA = [{
       {
         id: 24,
         title: "GitHub Battle",
-        linkUrl: "",
-        size: "https://hungry-haibt-e7dc30.netlify.com",
+        linkUrl: "https://hungry-haibt-e7dc30.netlify.com",
+        size: "",
         info: "Learnt and Built a React App using GitHub API from scratch. The project fetches information using the GitHub API and displays the most popular repositories according to the programming language. The project's another component fetches information about GitHub users and compares their score to choose the winner between the two. Both the pages have a navigation bar to route between the two and even change the background of the page. The project was deployed on Netlify.",
         imageUrl: "https://i.ibb.co/Z6GGkk2/Screenshot-2020-04-29-at-5-21-24-PM.png",
       },
