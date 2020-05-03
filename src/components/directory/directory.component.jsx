@@ -12,7 +12,7 @@ class Directory extends React.Component {
       sections: [
         {
           title: "",
-          imageUrl: "https://i.ibb.co/vmcYqLp/DSC1502.jpg",
+          imageUrl: "https://i.ibb.co/3RNdbqY/IMG-2826.jpg",
           size: "name",
           name: "profile",
           info: `Hey! My name is Himanshu Jain`,
