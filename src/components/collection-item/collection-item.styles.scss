@@ -7,14 +7,14 @@
   max-width: 720px;
   max-height: 660px;
   border: 0.2px solid black;
-  border-radius: 50%;
-  background-color: black
+  background-color: black;
+  border-style: outset;
 }
 
 .image {
   display: block;
   width: 100%;
-  border-radius: 50%;
+  border-style: outset;
 }
 
 .overlay {
