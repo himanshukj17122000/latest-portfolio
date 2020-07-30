@@ -17,6 +17,23 @@
   border-style: outset;
 }
 
+.projectCard {
+  border-style: solid;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.cardComplete::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.cardComplete {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
 .overlay {
   position: absolute;
   bottom: 100%;
