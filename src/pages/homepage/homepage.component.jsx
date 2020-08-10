@@ -4,6 +4,7 @@ import Directory from '../../components/directory/directory.component';
 import './homepage.styles.scss';
 import Carousel from 'react-bootstrap/Carousel';
 import { DiAppcelerator } from 'react-icons/di';
+
 const HomePage = () => (
   <div className='homepage'>
     {/* <Carousel style={{ width: '40rem', height: '30rem' }}>

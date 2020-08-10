@@ -13,6 +13,19 @@ import FormControl from 'react-bootstrap/FormControl';
 import Button from 'react-bootstrap/Button';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import Particles from 'react-particles-js';
+
+const particlesOptions = {
+  particles: {
+    number: {
+      value: 80,
+      density: {
+        enable: true,
+        value_area: 800,
+      },
+    },
+  },
+};
 
 const App = () => {
   const [clicked, setClicked] = useState({
@@ -139,6 +152,7 @@ const App = () => {
           </SocialIcon>{' '}
         </div>{' '}
       </footer>{' '}
+      <Particles className='particles' params={particlesOptions} />;
     </div>
   );
 };
