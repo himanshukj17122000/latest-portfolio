@@ -2,26 +2,24 @@ $base-color: #15202b;
 $link-color: #15202b;
 
 .App {
-    background-color: white;
-    padding: 2em;
+  background-color: #232741;
+  padding: 2em;
 }
 
 .App.dark {
-    background-color: $base-color;
-    color: white;
+  background-color: $base-color;
+  color: red;
 }
 
 .addDarkMode {
-    border: 0;
-    margin-left: 1em;
-    padding: 1em;
-    background-color: white;
-    cursor: pointer;
+  border: 0;
+  margin-left: 1em;
+  padding: 1em;
+  background-color: #232741;
+  cursor: pointer;
 }
 
-
-
 .addDarkMode.dark {
-    background-color: $link-color;
-    color: white
+  background-color: $link-color;
+  color: white;
 }
