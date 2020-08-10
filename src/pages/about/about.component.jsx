@@ -3,11 +3,16 @@ import Typewriter from 'typewriter-effect';
 import Rotate from 'react-reveal/Rotate';
 import './about.styles.scss';
 import Zoom from 'react-reveal/Zoom';
-
+import Image from 'react-bootstrap/Image';
 const AboutPage = () => (
   <div className='information-holder'>
     <Rotate top left>
-      <img src='https://i.ibb.co/vmcYqLp/DSC1502.jpg' alt='Profile Pic' />
+      <Image
+        src='https://i.ibb.co/vmcYqLp/DSC1502.jpg'
+        alt='Profile Pic'
+        rounded
+        style={{ minWidth: '5rem', minHeight: '5rem' }}
+      />
     </Rotate>
     <div className='about-page'>
       <Zoom>
