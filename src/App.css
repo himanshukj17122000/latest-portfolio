@@ -14,12 +14,7 @@ body {
   padding: 10px;
 }
 
-html,
-body,
-#root,
-#root>div {
-  height: 100%
-}
+
 
 a {
   text-decoration: none;

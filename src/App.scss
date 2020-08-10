@@ -19,12 +19,7 @@ $link-color: #15202b;
     cursor: pointer;
 }
 
-html,
-body,
-#root,
-#root>div {
-    height: 100%
-}
+
 
 .addDarkMode.dark {
     background-color: $link-color;
