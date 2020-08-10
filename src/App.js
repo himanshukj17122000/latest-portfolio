@@ -152,7 +152,7 @@ const App = () => {
           </SocialIcon>{' '}
         </div>{' '}
       </footer>{' '}
-      <Particles className='particles' params={particlesOptions} />;
+      <Particles className='particles' params={particlesOptions} />
     </div>
   );
 };
