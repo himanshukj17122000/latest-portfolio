@@ -24,6 +24,39 @@ const particlesOptions = {
         value_area: 800,
       },
     },
+
+    line_linked: {
+      enable: true,
+      distance: 200,
+      color: '#000',
+      opacity: 1,
+      width: 0.5,
+    },
+    shape: {
+      stroke: {
+        width: 8,
+        color: {
+          value: '#fff',
+          value: { r: 255, g: 255, b: 255 },
+          value: ['#f00', '#0f0', '#00f'],
+          value: 'random', //set colors randomly
+        },
+      },
+    },
+    interactivity: {
+      detect_on: 'canvas',
+      events: {
+        onhover: {
+          enable: false,
+          mode: 'repulse',
+        },
+        onclick: {
+          enable: false,
+          mode: 'push',
+        },
+        resize: true,
+      },
+    },
   },
 };
 
