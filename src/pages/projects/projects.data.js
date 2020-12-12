@@ -2,6 +2,13 @@ const PROJECT_DATA = [{
     id: 1,
     title: "Work Experience",
     items: [{
+      id: 69,
+      title: "Big Ideas Lab",
+      size: "",
+      linkUrl: "",
+      info: `Developing a health and fitness application that uses a Machine Learning Algorithm for searching nearby restaurants according to the user’s food preferences and stores the user’s steps count to monitor the fitness goals. Used Android Studio design features like Navigation Drawer, Persistent Bottom Sheet, RecyclerView, Fragments and Tab Layout to develop the UI. Incorporated Google Maps, Google Fit, GraphView, and Firebase in the application. Testing and debugging using Android Emulator. Gained hands-on experience in Android Development using Java, XML and Adobe XD`,
+      imageUrl: "https://i.ibb.co/1G5hKfw/Screenshot-2020-12-12-at-5-58-02-AM.png",
+    },{
         id: 20,
         title: "CenturyLink Corporation",
         size: "",
