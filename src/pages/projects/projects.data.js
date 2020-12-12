@@ -167,14 +167,14 @@ const PROJECT_DATA = [{
         size: "",
         imageUrl: "https://i.ibb.co/619gsjQ/Screenshot-2020-07-26-at-5-20-57-PM.png",
       },
-      {
-        id: 42,
-        title: "School Meal Mapper",
-        linkUrl: "https://school-meal-mapper.github.io/School-Meal-Mapper/",
-        info: "Joined a team of 20+ software developers to work on mitigating the effects of Coronavirus Pandemic by providing North Carolina residents with a map of nearby grocery and free School meal sites. Building an interactive map using Google Sheets, Vue, Bootstrap-Vue, and Leaflet",
-        size: "",
-        imageUrl: "https://i.ibb.co/GVQ2Src/Screenshot-2020-07-27-at-12-24-06-AM.png",
-      },
+      // {
+      //   id: 42,
+      //   title: "School Meal Mapper",
+      //   linkUrl: "https://school-meal-mapper.github.io/School-Meal-Mapper/",
+      //   info: "Joined a team of 20+ software developers to work on mitigating the effects of Coronavirus Pandemic by providing North Carolina residents with a map of nearby grocery and free School meal sites. Building an interactive map using Google Sheets, Vue, Bootstrap-Vue, and Leaflet",
+      //   size: "",
+      //   imageUrl: "https://i.ibb.co/GVQ2Src/Screenshot-2020-07-27-at-12-24-06-AM.png",
+      // },
       {
         id: 18,
         title: "Vscode Extensions",
