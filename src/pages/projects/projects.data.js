@@ -139,6 +139,20 @@ const PROJECT_DATA = [{
     id: 3,
     title: "Personal Projects",
     items: [{
+      id: 99,
+      title: "Dino- Find the word",
+      linkUrl: "https://devpost.com/software/dino-vocab-on-the-fly",
+      info: "Google extension that makes a popup with the word meaning, synonyms and example statements. Supports many different languages and helps the user learn new words. Keeps a track of the different words learnt and sends an email every week with the new words learnt and their meanings. Implemented the API used node mailer for sending emails to the given email ID with the given email body. Designed the popup and implemented drag features. Submitted for HackDuke 2020",
+      size: "",
+      imageUrl: "https://i.ibb.co/X3mCFdS/Screenshot-2020-12-12-at-6-14-57-AM.png",
+    },{
+      id: 99,
+      title: "Gym Scheduler",
+      linkUrl: "https://gymtrackerduke.herokuapp.com",
+      info: "A combined portal for Duke students to reserve gym equipment, view and enroll in fitness classes, and manage their workout schedule! GymTracker allows you to view equipment and resources available by their location, reserve equipment in times that work for you, find and enroll in exciting classes - and manage all of your bookings, just with a click! Tech Stack- SQL, Flask, Jinja2, HTML, CSS, Bootstrap, Pyrebase (Firebase)",
+      size: "",
+      imageUrl: "https://i.ibb.co/87szYP6/Screenshot-2020-12-12-at-6-11-11-AM.png",
+    },{
         id: 39,
         title: "MOOC Search Engine",
         linkUrl: "https://master.d381zdcnbbn5kn.amplifyapp.com",
