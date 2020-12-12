@@ -5,9 +5,16 @@ const PROJECT_DATA = [{
       id: 69,
       title: "Big Ideas Lab",
       size: "",
-      linkUrl: "",
+      linkUrl: "https://github.com/himanshukj17122000/moveIt",
       info: `Developing a health and fitness application that uses a Machine Learning Algorithm for searching nearby restaurants according to the user’s food preferences and stores the user’s steps count to monitor the fitness goals. Used Android Studio design features like Navigation Drawer, Persistent Bottom Sheet, RecyclerView, Fragments and Tab Layout to develop the UI. Incorporated Google Maps, Google Fit, GraphView, and Firebase in the application. Testing and debugging using Android Emulator. Gained hands-on experience in Android Development using Java, XML and Adobe XD`,
       imageUrl: "https://i.ibb.co/1G5hKfw/Screenshot-2020-12-12-at-5-58-02-AM.png",
+    },{
+      id: 88,
+      title: "Meals For Families",
+      size: "",
+      linkUrl: "https://mealsforfamilies.org",
+      info: `Volunteering with the Open NC Collaborative Team to mitigate the effects of Coronavirus Pandemic by providing North Carolina residents with a map of nearby grocery and free School meal sites. Building an interactive map using Google Sheets, Vue, Bootstrap-Vue, and Leaflet`,
+      imageUrl: "https://i.ibb.co/1JnwjZf/1528383687964.png",
     },{
         id: 20,
         title: "CenturyLink Corporation",
