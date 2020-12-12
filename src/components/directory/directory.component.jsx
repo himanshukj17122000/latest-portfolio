@@ -25,7 +25,7 @@ class Directory extends React.Component {
           size: 'name',
           name: 'info',
           info:
-            "Hi! My name is Himanshu Jain. I am a rising Junior at Duke University, North Carolina studying Electrical & Computer Engineering-Computer Science. I am also planning to complete a minor in Financial Economics. My home town is New Delhi, India but I currently live in Durham, North Carolina. I have deep interest in applying Computer Science in other fields like Finance and Health. For almost a year, I worked on an Android Application named Digital Fidget. I have also worked on a bot for excavating and mapping archaeological sites. Please head over to my Portfolio page for more information. I am a fitness enthusiast and I love to hit the gym in my freetime. I also play sports like Tennis and Basketball (Let's go Devils!).",
+            "Hi! My name is Himanshu Jain. I am a rising Junior at Duke University, North Carolina studying Computer Science. I am also planning to complete a minor in Financial Economics. My home town is New Delhi, India but I currently live in Durham, North Carolina. I have deep interest in applying Computer Science in other fields like Finance and Health. I am currently working with the Big Ideas Lab on a health and fitness application. For almost a year, I worked on an Android Application named Digital Fidget. I have also worked on a bot for excavating and mapping archaeological sites. Please head over to my Portfolio page for more information. I am a fitness enthusiast and I love to hit the gym in my freetime. I also play sports like Tennis and Basketball (Let's go Devils!).",
           id: 1,
           linkUrl: 'about',
         },
