@@ -37,7 +37,7 @@ class Directory extends React.Component {
             'https://i.ibb.co/vQ79B4Q/Screenshot-2020-04-28-at-10-34-06-PM.png',
           id: 2,
           linkUrl:
-            'https://drive.google.com/file/d/18lXRqjhVh-VsgRR3nZTLd8pylmEA5oF8/view?usp=sharing',
+            'https://drive.google.com/file/d/1bimvoMhXLVptSDUjtTEd65rK04z8P-qJ/view?usp=sharing',
         },
         {
           title: 'Work Experience',
